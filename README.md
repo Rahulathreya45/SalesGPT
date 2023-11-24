@@ -52,7 +52,7 @@ Run main.py
 
 ## Screenshots
 
-![App Screenshot](screenshot)
+![App Screenshot](screenshot.png)
 
 
 ## Appendix
