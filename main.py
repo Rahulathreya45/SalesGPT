@@ -1,6 +1,6 @@
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "your api key"
 from typing import Dict, List, Any
 from langchain.llms import BaseLLM
 from langchain.pydantic_v1 import BaseModel, Field
