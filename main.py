@@ -29,7 +29,7 @@ for product in inventory_data:
 
 # MongoDB Connection
 # ----------------------------------------------------------------------------------------------------------
-connection_string = "mongodb+srv://rahulathreya:test@cluster0.iznokiz.mongodb.net/?retryWrites=true&w=majority"
+connection_string = "Your Connection String"
 message_history = MongoDBChatMessageHistory(
     connection_string=connection_string, session_id="test-session"
 )
@@ -50,7 +50,7 @@ def save_preferred_callback_times(input_string):
         return
     # Connect to the MongoDB database
     client = pymongo.MongoClient(
-        "mongodb+srv://rahulathreya:test@cluster0.iznokiz.mongodb.net/?retryWrites=true&w=majority"
+        "your connection string"
     )
     db = client["sales_db"]
     collection = db["customer_interests"]
